@@ -10,6 +10,8 @@ DEFAULT_LANG = u'fr'
 
 STATIC_PATHS = (['images', 'documents'])
 
+THEME = 'iris'
+
 # Blogroll
 LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
           ('Python.org', 'http://python.org'),
