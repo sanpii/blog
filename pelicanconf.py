@@ -13,14 +13,14 @@ STATIC_PATHS = (['images', 'documents'])
 THEME = 'iris'
 
 # Blogroll
-LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-          ('Python.org', 'http://python.org'),
-          ('Jinja2', 'http://jinja.pocoo.org'),
-          ('You can modify those links in your config file', '#'),)
+LINKS =  ()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('comment-alt', 'http://status.homecomputing.fr/sanpi'),
+    ('github', 'http://status.homecomputing.fr/sanpi'),
+)
+EMAIL = 'mailto:sanpi@homecomputing.fr'
 
 DEFAULT_PAGINATION = 10
 
