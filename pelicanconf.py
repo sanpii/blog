@@ -12,18 +12,26 @@ STATIC_PATHS = (['images', 'documents'])
 
 THEME = 'iris'
 
-# Blogroll
-LINKS =  ()
+DEFAULT_PAGINATION = 10
+
+DISPLAY_PAGES_ON_MENU = False
+
+ARTICLE_URL = "content/{slug}"
+ARTICLE_SAVE_AS = "content/{slug}/index.html"
+
+PATH = 'src'
 
 # Social widget
+LINKS =  ()
+
 SOCIAL = (
     ('comment-alt', 'http://status.homecomputing.fr/sanpi'),
     ('github', 'http://status.homecomputing.fr/sanpi'),
 )
-EMAIL = 'mailto:sanpi@homecomputing.fr'
 
-DEFAULT_PAGINATION = 10
+EMAIL = 'mailto:sanpi@homecomputing.fr'
 
 # Feed
 FEED_DOMAIN = 'http://sanpi.homecomputing.fr'
-TAG_FEED_ATOM = 'feeds/tags/%s.atom.xml'
+FEED_RSS = 'all.rss.xml'
+TAG_FEED_RSS = 'feeds/tags/%s.rss.xml'
