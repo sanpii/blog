@@ -15,6 +15,10 @@ DISPLAY_PAGES_ON_MENU = False
 ARTICLE_URL = "{category.slug}/{slug}"
 ARTICLE_SAVE_AS = "{category.slug}/{slug}/index.html"
 
+PLUGINS = [
+    'code-paste',
+]
+
 # Social widget
 LINKS =  ()
 

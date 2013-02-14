@@ -34,7 +34,7 @@ de conserver ce dernier pour modifier en profondeur un système.
 Voici un exemple d'implémentation des signaux en PHP dans le cadre de mon
 framework d'expérimentation :
 
-<http://git.homecomputing.fr/?p=nano-mvc.git;a=blob_plain;f=signal.php>
+[paste:http://git.homecomputing.fr/?p=nano-mvc.git;a=blob_plain;f=signal.php]
 
 Voici un exemple simple pour comprendre le déroulement des événements :
 
