@@ -6,7 +6,7 @@ la carte [Boitier Slim Mini-ITX Smart
 Teck](http://www.3continents.fr/produit.asp?produitID=8296) ainsi que la [séance
 de montage](http://www.flickr.com/photos/gege2061/sets/72157625036990133/). Plus
 important voici le manuel d’utilisation de la carte : [User’s Manual
-VB6002](|filename|/documents/UM_VB6002_101.pdf).*
+VB6002](|filename|/files/UM_VB6002_101.pdf).*
 
 * * *
 
