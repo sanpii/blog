@@ -20,7 +20,7 @@ LINKS =  ()
 
 SOCIAL = (
     ('comment-alt', 'http://status.homecomputing.fr/sanpi'),
-    ('github', 'http://status.homecomputing.fr/sanpi'),
+    ('github', 'https://github.com/sanpii'),
 )
 
 EMAIL = 'mailto:sanpi@homecomputing.fr'
