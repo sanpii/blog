@@ -23,7 +23,7 @@ SOCIAL = (
     ('github', 'https://github.com/sanpii'),
 )
 
-EMAIL = 'mailto:sanpi@homecomputing.fr'
+EMAIL = 'sanpi@homecomputing.fr'
 
 # Feed
 FEED_DOMAIN = 'http://sanpi.homecomputing.fr'
