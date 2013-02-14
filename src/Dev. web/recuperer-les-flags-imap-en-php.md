@@ -23,7 +23,7 @@ Pour ceux qui ne sont pas familier avec les serveurs de mails, il faut savoir
 que c'est extrêmement simple de dialoguer directement avec : tout peut se faire
 avec *telnet* en tapant les commandes adéquates, comme je le fait dans un
 [billet précédent pour l'installation d'un serveur
-IMAP](|filename|Auto-hebergement/consultez-vos-emails-a-distance.md).
+IMAP](|filename|/Auto-hebergement/consultez-vos-emails-a-distance.md).
 
 Voici à quoi ressemble une discussion pour récupérer uniquement les étiquettes
 d'un mails :
