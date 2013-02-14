@@ -6,7 +6,7 @@ SITEURL = 'http://sanpi.homecomputing.fr'
 
 TIMEZONE = 'Europe/Paris'
 
-STATIC_PATHS = (['images', 'documents'])
+STATIC_PATHS = (['images', 'files'])
 
 DEFAULT_PAGINATION = 10
 
