@@ -62,7 +62,7 @@ forme suivante :
 
 Du coup, un p’tit code rapide pour me trouver l’URL :
 
-http://git.homecomputing.fr/?p=magento-dl.git;a=blob_plain;f=magento_dl.php
+[paste:http://git.homecomputing.fr/?p=magento-dl.git;a=blob_plain;f=magento_dl.php]
 
 Simplement utilisable avec *wget* pour télécharger l’archive :
 
