@@ -23,8 +23,8 @@ PLUGINS = [
 LINKS =  ()
 
 SOCIAL = (
-    ('comment-alt', 'http://status.homecomputing.fr/sanpi'),
-    ('github', 'https://github.com/sanpii'),
+    ('comment-alt', 'https://status.homecomputing.fr/sanpi'),
+    ('beaker', 'https://git.homecomputing.fr'),
 )
 
 EMAIL = 'sanpi@homecomputing.fr'
