@@ -3,7 +3,7 @@ Date: 2010-08-02 17:02
 Tags: Électrique, Arduino, horloge
 
 Je vous l’avez promis dans mon [premier article sur
-l’arduino](decouvrez-lelectronique-libre-avec-larduino.md),
+l’arduino](|filename|/D.I.Y./decouvrez-lelectronique-libre-avec-larduino.md),
 il est enfin terminé : mon premier projet utilisant l’arduino !
 
 Je vous propose donc de construire votre propre horloge, pourquoi geek ? Tout

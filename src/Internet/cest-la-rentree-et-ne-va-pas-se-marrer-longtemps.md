@@ -57,7 +57,7 @@ permettrons d’améliorer les choses :
 * relayez les articles intéressant sur [identi.ca](http://identi.ca/) ou twitter ;
 * parlez-en autour de vous ;
 * [Auto-hébergez](http://www.auto-hebergement.fr/) vous afin de pouvoir vous exprimer librement et protéger votre vie privée ;
-* monter votre [FAI associatif](demain-je-cree-mon-fai.md).
+* monter votre [FAI associatif](|filename|/Internet/demain-je-cree-mon-fai.md).
 
 Pour finir, si on ajoute à cela l’ACTA, l’accord entre Google et Verizon, le
 premier mail HAPODI qui devrait bientôt partir ([ou
