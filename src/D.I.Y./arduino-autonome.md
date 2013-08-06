@@ -2,7 +2,7 @@ Title: Arduino autonome
 Date: 2010-08-24 12:43
 Tags: Arduino
 
-L’[arduino](decouvrez-lelectronique-libre-avec-larduino.md)
+L’[arduino](|filename|/D.I.Y./decouvrez-lelectronique-libre-avec-larduino.md)
 est une plateforme de développement, une fois votre circuit au point, il devrait
 être inclue dans votre circuit. Voyons comment y parvenir.
 
@@ -29,7 +29,7 @@ Attention vous aurez tout de même besoin d’un Arduino pour programmer le
 microprocesseur.
 
 Comme je l’annonçai en conclusion de mon projet d’[horloge
-binaire](realiser-une-horloge-de-geek.md),
+binaire](|filename|/D.I.Y./realiser-une-horloge-de-geek.md),
 ce serait une bonne chose d’utiliser une version autonome sur circuit imprimé.
 Je pense qu’il est temps de préparer la version finale du projet en attendant
 que je reçoivent les composants !

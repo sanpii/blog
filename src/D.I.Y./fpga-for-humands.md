@@ -3,7 +3,7 @@ Date: 2013-07-17
 Tags: FPGA
 
 Quelque temps après avoir découvert
-l’[arduino](decouvrez-lelectronique-libre-avec-larduino.md), et oublié mes
+l’[arduino](|filename|/D.I.Y./decouvrez-lelectronique-libre-avec-larduino.md), et oublié mes
 aprioris sur l’électronique, j’ai entendu parlé des
 [FPGA](https://fr.wikipedia.org/wiki/FPGA).
 
