@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-SITENAME = u'Sanpi\u2019s blog'
+SITENAME = u'Le dernier blog\navant la fin du monde'
 SITEURL = 'http://sanpi.homecomputing.fr'
 
 TIMEZONE = 'Europe/Paris'
