@@ -16,7 +16,7 @@ ordinateur pour le programmer, et d’un autre côté à un circuit électroniqu
 de faire interagir votre programme avec le monde réel. Parce que c’est surtout
 ça l’Arduino : une passerelle entre les mondes virtuel et réel !
 
-![Arduino](/sites/blog/files/users/user_1/arduino.jpg)
+![Arduino](|filename|/images/arduino.jpg)
 
 L’avantage de l’Arduino est d’être très simple à utiliser, en particulier pour
 les personnes qui n’y connaissent rien en électronique, puisque l’on travail sur

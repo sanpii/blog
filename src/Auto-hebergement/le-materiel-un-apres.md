@@ -24,15 +24,15 @@ nécessitait une carte graphique ce qui n’est pas une bonne idée à cette ép
 de l’année).
 
 Voici l’utilisation du processeur et de la mémoire pour aujourd’hui :
-![CPU usage](/sites/blog/files/users/user_1/localhostl.png)
+![CPU usage](|filename|/images/localhostl.png)
 
-![Memory usage](/sites/blog/files/users/user_1/localhnln.png)
+![Memory usage](|filename|/images/localhnln.png)
 
 Plutôt calme…
 
 Je suis aussi étonné de la faible utilisation du disque :
 
-![Disk usage](/sites/blog/files/users/user_1/localhgyg.png)
+![Disk usage](|filename|/images/localhgyg.png)
 
 Soit 145 Go de libre sur les 160 disponibles.
 
