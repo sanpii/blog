@@ -107,7 +107,8 @@ Un oscillogramme vaut mieux qu’un long discours :
 ![Oscillogramme](|filename|/images/teleinfo/oscillo.png)
 
 Le schéma du circuit est extrêmement simple. Attention toutefois aux
-branchements avec le raspberry, il n’y a aucune protection.
+branchements avec le raspberry, les GPIO n’ont aucune protection (réfléchissez
+bien avant de connecter de pin 1).
 
 ![Circuit](|filename|/images/teleinfo/circuit.png)
 
