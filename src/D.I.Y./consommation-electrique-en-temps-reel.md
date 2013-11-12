@@ -100,7 +100,8 @@ Le but est de transformer un signal électrique en suite de « 0 » et « 1 
 
 L’idée géniale qui va grandement nous simplifier la vie vient de
 [hd31](http://www.chaleurterre.com/forum/viewtopic.php?t=13232) qui propose
-d’utiliser un octocoupleur :
+d’utiliser un octocoupleur : [SFH620A](|filename|/files/teleinfo/sfh620a.pdf).
+
 
 Un oscillogramme vaut mieux qu’un long discours :
 
