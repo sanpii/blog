@@ -9,6 +9,7 @@ TIMEZONE = 'Europe/Paris'
 STATIC_PATHS = (['images', 'files'])
 
 DEFAULT_PAGINATION = 10
+DEFAULT_CATEGORY = 'Humeur'
 
 DISPLAY_PAGES_ON_MENU = False
 
