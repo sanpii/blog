@@ -3,6 +3,7 @@
 
 SITENAME = u'Le dernier blog\navant la fin du monde'
 SITEURL = '//sanpi.homecomputing.fr'
+PATH = 'src/'
 
 TIMEZONE = 'Europe/Paris'
 
