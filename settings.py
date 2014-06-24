@@ -13,8 +13,8 @@ DEFAULT_CATEGORY = 'Humeur'
 
 DISPLAY_PAGES_ON_MENU = False
 
-ARTICLE_URL = "{category.slug}/{slug}"
-ARTICLE_SAVE_AS = "{category.slug}/{slug}/index.html"
+ARTICLE_URL = "{category}/{slug}"
+ARTICLE_SAVE_AS = "{category}/{slug}/index.html"
 
 PLUGINS = [
     'code-paste',
