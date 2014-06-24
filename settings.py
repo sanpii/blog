@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 SITENAME = u'Le dernier blog\navant la fin du monde'
-SITEURL = 'http://sanpi.homecomputing.fr'
+SITEURL = '//sanpi.homecomputing.fr'
 
 TIMEZONE = 'Europe/Paris'
 
