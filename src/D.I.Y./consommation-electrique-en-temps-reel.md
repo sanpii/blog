@@ -204,7 +204,12 @@ Au final, la mise en place est très simple et je pourrais utiliser cette
 plateforme pour agréger d’autres capteurs (consommation d’eau, récupération des
 informations d’une station météo, …).
 
-![Le résultat final](|filename|/images/teleinfo/resultat.png)
+Voici le premier prototype, posé sur le compteur :
+![Première version](|filename|/images/teleinfo/resultat.png)
+
+Quelques tours de dremel et soudures, et voici la version finale collée sous le
+compteur :
+![Version finale](|filename|/images/teleinfo/resultat-shield.png)
 
 Malgré tout, si vous aimez la bidouille, je vous conseille de lire Open Silicium
 dont la majorité des articles est passionnante.
