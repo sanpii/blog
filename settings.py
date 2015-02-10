@@ -11,6 +11,8 @@ STATIC_PATHS = (['images', 'files'])
 
 DEFAULT_PAGINATION = 10
 DEFAULT_CATEGORY = 'Humeur'
+DEFAULT_DATE = 'fs'
+DEFAULT_AUTHOR = 'Sanpi'
 
 DISPLAY_PAGES_ON_MENU = False
 
