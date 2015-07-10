@@ -198,7 +198,22 @@ voyant son id, je me suis dit que j’avais peut-être fait cela pour rien :
     &mdash; sanpi (@sanpi_) <a href="https://twitter.com/sanpi_/status/614968066858983424">28 Juin 2015</a>
 </blockquote>
 
-Wait & see.
+## La suite
+
+Deux semaines plus tard, aucune réponse mais une nouvelle carte est publiée
+avec un parcours en vélo le long de la Loire, de Nantes à Saint-Nazaire. Du coup
+je ne vais pas me priver pour recommencer :
+
+<blockquote class="twitter-tweet" lang="fr">
+    <p lang="fr" dir="ltr">Bon <a href="https://twitter.com/levoyageanantes">@levoyageanantes</a>, je ne vais pas perdre mon temps à te poser la question, je t’envois directement le gpx dans 1h <a href="http://www.estuaire.info/fr/le-parcours/">http://www.estuaire.info/fr/le-parcours/</a> <a href="https://twitter.com/hashtag/OpeningData?src=hash">#OpeningData</a>
+
+    &mdash; sanpi (@sanpi_) <a href="https://twitter.com/sanpi_/status/619441335339220992">10 Juillet 2015</a>
+</blockquote>
+
+Il m’aura fallu que 30 minutes :
+
+<iframe width="100%" height="500px" frameBorder="0" src="//umap.openstreetmap.fr/fr/map/estuaire-biennale-dart-contemporain-nantes-saint-n_46693?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+<p><a href="//umap.openstreetmap.fr/fr/map/estuaire-biennale-dart-contemporain-nantes-saint-n_46693">Voir en plein écran</a></p>
 
 Le front de libération des données.
 
