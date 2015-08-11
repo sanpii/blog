@@ -107,25 +107,25 @@ Commençons par le conteneur chiffré :
 # modprobe loop
 # mkdir -p /opt/keys/uncrypt
 # pmt-ehd -f /opt/keys/key -u sanpi -s 256
-# cryptsetup openLuks /opt/keys/key keys
+# cryptsetup luksOpen /opt/keys/key keys
 # mount /dev/mapper/keys /opt/keys/uncrypt
 ```
 
 Créons les deux clés, dans le conteneur chiffré :
 
 ```
-# head -c 64 /dev/random > /opt/keys/key/uncrypt/sda1.key
-# head -c 64 /dev/random > /opt/keys/key/uncrypt/sdb1.key
+# head -c 64 /dev/random > /opt/keys/uncrypt/sda1.key
+# head -c 64 /dev/random > /opt/keys/uncrypt/sdb1.key
 ```
 
 Et ensuite, mettons en place notre RAID :
 
 ```
 # cryptsetup luksFormat --key-file="/opt/keys/uncrypt/sdb1.key" /dev/sdb1
-# cryptsetup openLuks /dev/sdb1 sdb1
+# cryptsetup luksOpen --key-file="/opt/keys/uncrypt/sdb1.key" /dev/sdb1 sdb1
 # mkfs.btrfs /dev/mapper/sdb1
 # btrfs device add /dev/mapper/sdb1 /home
-# btrfs filesystem balance start -dconvert=raid1 -mconvert=raid1 -sconvert=raid1 /home
+# btrfs filesystem balance start -dconvert=raid1 -mconvert=raid1 /home
 ```
 
 Vous pouvez prendre une pause pour réfléchir sur le sens de la vie et données à
@@ -135,7 +135,7 @@ N’oublions pas de remplacer le mot de passe de la première partition par le
 fichier clé :
 
 ```
-# crypsetup luksAddKey --key-file=/opt/keys/key/uncrypt/sda1.key /dev/sda1
+# crypsetup luksAddKey /dev/sda1 /opt/keys/uncrypt/sda1.key
 # cryptsetup luksRemoveKey /dev/sda1
 Entrez la phrase secrète à effacer :
 ```
