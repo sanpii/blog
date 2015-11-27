@@ -12,6 +12,10 @@ différentes (chiffrer deux contenus identiques avec la même clé, je ne sais p
 je ne le sens pas) le tout déchiffré et monté sur `/home` lors de l’ouverture de
 ma session sans étape supplémentaire.
 
+> ***note*** Peur probablement infondée :
+> <https://kdecherf.com/blog/2015/10/07/two-misconceptions-about-luks/>.
+> Toutefois cela ne change rien à la démarche.
+
 # Avec un disque
 
 Commençons par un seul disque, dont le mot de passe luks sera identique à
