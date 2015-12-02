@@ -11,7 +11,11 @@ def replace_code_paste(generator):
     regex = re.compile(r'(<p>\[paste:([^\]]+)\]</p>)')
     for article in generator.articles:
         for match in regex.findall(article._content):
-            code = urllib.urlopen(match[1]).read()
+            try:
+                code = urllib.urlopen(match[1]).read()
+            except:
+                code = open(match[1]).read()
+
             try:
                 lexer = get_lexer_for_filename(match[1])
             except:
