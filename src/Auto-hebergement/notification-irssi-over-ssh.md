@@ -66,7 +66,7 @@ port en local, grâce à ces quelques lignes placées dans *~/.ssh/config* :
 Couplé à un client qui va écouter le port pour renvoyer le message au système de
 notification local :
 
-[paste:http://git.homecomputing.fr/?p=my-dotfiles.git;a=blob_plain;f=ssh/ssh-listener.py]
+[paste:http://git.homecomputing.fr/my-dotfiles/raw/master/ssh/ssh-listener.py]
 
 Si vous utilisez un gestionnaire de fenêtre tel que Gnome, vous pouvez vous
 arrêtez là, *notify-send* faisant le reste. Cependant si vous utilisez un
