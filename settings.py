@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*- #
 
 SITENAME = u'Le dernier blog\navant la fin du monde'
-SITEURL = '//sanpi.homecomputing.fr'
+SITEURL = 'https://sanpi.homecomputing.fr'
+RELATIVE_URLS = True
 PATH = 'src/'
 
 TIMEZONE = 'Europe/Paris'
@@ -34,7 +35,6 @@ SOCIAL = (
 EMAIL = 'sanpi@homecomputing.fr'
 
 # Feed
-FEED_DOMAIN = 'http://sanpi.homecomputing.fr'
 FEED_RSS = 'all.rss.xml'
 TAG_FEED_RSS = 'feeds/tags/%s.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/categories/%s.rss.xml'
