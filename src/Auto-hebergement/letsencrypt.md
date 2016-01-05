@@ -41,9 +41,9 @@ certificat dans le sous-dossier `.well-known`.
 Voici donc la configuration pour nginx à placer dans chacun de vos vhost :
 
 ```
-location /.well-known {
+location /.well-known/acme-challenge {
     add_header Content-Type application/jose+json;
-    root /tmp/letsencrypt/public_html/;
+    root /tmp/letsencrypt/public_html;
 }
 ```
 
