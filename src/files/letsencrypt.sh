@@ -1,12 +1,14 @@
 #!/bin/bash
 
-letsencrypt_root="/home/sanpi/.local/share/letsencrypt"
+readonly LETSENCRYPT_ROOT="/home/sanpi/.local/share/letsencrypt"
+readonly CERT_MAX_AGE=60
 
 get_vhosts()
 {
-    site=$1
+    local site=$1
+    local vhosts
 
-    vhosts=$(grep 'server_name ' $site | tr -d ' ' | sed 's/server_name//' | sed 's/;//')
+    vhosts=$(grep 'server_name ' $site | tr -d ' ' | sed 's/server_name//' | sed 's/;//' | grep -v '.onion$')
     vhosts=($vhosts)
 
     echo ${vhosts[*]}
@@ -14,20 +16,21 @@ get_vhosts()
 
 count_char()
 {
-    str=$1
-    char=$2
+    local str=$1
+    local char=$2
 
     echo "$str" | grep -oF "$char" | wc -l
 }
 
 get_main_vhost()
 {
-    vhosts=$1
+    local vhosts=$1
+    local nb_dot
+    local main_vhost
 
     nb_dot=$(count_char $vhosts '.')
     if [ $nb_dot -gt 1 ]
     then
-
         main_vhost=$(echo ${vhosts[0]} | cut -d . -f $nb_dot-)
     else
         main_vhost=${vhosts[0]}
@@ -38,7 +41,9 @@ get_main_vhost()
 
 get_email()
 {
-    vhosts=$1
+    local vhosts=$1
+    local main_vhost
+    local email
 
     main_vhost=$(get_main_vhost $vhosts)
     email="postmaster@$main_vhost"
@@ -46,11 +51,26 @@ get_email()
     echo $email
 }
 
+get_lastchange()
+{
+    local vhosts=$1
+    local pem="/etc/letsencrypt/live/${vhosts[0]}/fullchain.pem"
+    local lastchange=-1
+
+    if [ -e $pem ]
+    then
+        lastchange=$(expr $(expr $(date +%s) - $(date +%s -r $pem)) / 86400)
+    fi
+
+    echo $lastchange
+}
+
 transform_vhost_to_arg()
 {
-    vhosts=$1
+    local vhosts=$1
+    local vhost
+    local vhosts_arg=''
 
-    vhosts_arg=''
     for vhost in ${vhosts[@]}
     do
         vhosts_arg="$vhosts_arg -d $vhost"
@@ -59,44 +79,52 @@ transform_vhost_to_arg()
     echo $vhosts_arg
 }
 
-if [ $# -gt 0 ]
-then
-    sites=$@
-else
-    sites=$(find /etc/nginx/sites-enabled -type l)
-fi
-
-status='skip'
-
-virtualenv "$letsencrypt_root"
-
-for site in $sites
-do
-    echo -n "$site: "
-
-    vhosts=$(get_vhosts $site)
-
-    if [ -n "$vhosts" ]
+main()
+{
+    if [ $# -gt 0 ]
     then
-        email=$(get_email $vhosts)
-
-        vhosts_arg=$(transform_vhost_to_arg "$vhosts")
-
-        "$letsencrypt_root/bin/letsencrypt" certonly $vhosts_arg \
-            --email "$email" -c /etc/letsencrypt/config.cli.ini \
-            --renew-by-default \
-            --server https://acme-v01.api.letsencrypt.org/directory
-        status=$?
-
-        if [ "$status" -eq 0 ]
-        then
-            status='pass'
-        else
-            status='fail'
-        fi
+        local sites=$@
+    else
+        local sites=$(find /etc/nginx/sites-enabled -type l)
     fi
 
-    echo "$status"
-done
 
-service nginx reload
+    virtualenv "$LETSENCRYPT_ROOT"
+
+    for site in $sites
+    do
+        local status='skip'
+
+        echo -n "$site: "
+
+        local vhosts=$(get_vhosts $site)
+
+        if [ -n "$vhosts" ]
+        then
+            local email=$(get_email $vhosts)
+            local vhosts_arg=$(transform_vhost_to_arg "$vhosts")
+            local lastchange=$(get_lastchange $vhosts)
+
+            if [ $lastchange -lt 0 || $lastchange -gt $CERT_MAX_AGE ]
+            then
+                "$LETSENCRYPT_ROOT/bin/letsencrypt" certonly $vhosts_arg \
+                    --email "$email" -c /etc/letsencrypt/config.cli.ini \
+                    --renew-by-default \
+                    --server https://acme-v01.api.letsencrypt.org/directory
+
+                if [ $? -eq 0 ]
+                then
+                    status='pass'
+                else
+                    status='fail'
+                fi
+            fi
+        fi
+
+        echo "$status"
+    done
+
+    service nginx restart
+}
+
+main $@
