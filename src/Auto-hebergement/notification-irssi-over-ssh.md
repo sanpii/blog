@@ -23,7 +23,7 @@ sous [i3](https://i3wm.org/) cela à compliqué la tâche.
 ## Côté serveur
 
 Cette partie est librement inspirée de
-[On-screen notifications from IRSSI over SSH](http://i.got.nothing.to/post/2010/06/21/On-screen-notifications-from-IRSSI-over-SSH)
+[On-screen notifications from IRSSI over SSH](http://i.got.nothing.to/hack/on/on-screen-notifications-from-irssi-over-ssh/)
 puis récrite en python pour y inclure la [gestion des pièces
 jointes](|filename|pieces-jointes-mutt-over-ssh.md).
 
