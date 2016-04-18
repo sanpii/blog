@@ -80,7 +80,7 @@ fichier *~/.xinitrc* :
 [paste:https://git.homecomputing.fr/my-dotfiles/raw/93d38771be838cab1fcd18cf374f2949d1080ad5/xinitrc]
 
 Il nous reste plus qu’à configurer statnot correctement, pour i3 j’utilise
-[dzen2](https://sites.google.com/site/gotmor/dzen) :
+[dzen2](https://github.com/robm/dzen) :
 
 [paste:https://git.homecomputing.fr/my-dotfiles/raw/93d38771be838cab1fcd18cf374f2949d1080ad5/statnot/config.py]
 
