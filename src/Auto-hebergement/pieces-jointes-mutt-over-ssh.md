@@ -12,7 +12,7 @@ envoyer un fichier est relativement faible.
 Nous retrouvons notre script côté client, amputé des commandes inutiles et
 amélioré pour lancer des commandes selon la première ligne reçue :
 
-[paste:http://git.homecomputing.fr/my-dotfiles/raw/master/ssh/ssh-listener.py]
+[paste:https://git.homecomputing.fr/my-dotfiles/raw/master/ssh/ssh-listener.py]
 
 Par exemple, pour les notifications, il suffit envoyer :
 
