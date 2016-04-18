@@ -4,21 +4,21 @@ Tags: Libre, IRC, ssh
 
 Depuis que je possède un serveur, j’ai en permanence un
 [screen](https://www.gnu.org/software/screen/) qui tourne avec
-[irssi](http://irssi.org/) pour suivre ce qu’il se passe sur IRC. Dernièrement
+[irssi](https://irssi.org/) pour suivre ce qu’il se passe sur IRC. Dernièrement
 j’utilise aussi ce screen au travail en collaboration avec
 Puisque non somme en mesure d’envoyer des messages, le travail nécessaire pour
 envoyer un fichier est relativement faible.
 
 Nous retrouvons notre script côté client qui lance des commandes selon la
 première ligne reçue :
-[bitlbee](http://www.bitlbee.org) pour discuter avec mes collègues via gtalk.
+[bitlbee](https://www.bitlbee.org) pour discuter avec mes collègues via gtalk.
 Autant les messages qui me sont destinés sur IRC peuvent attendre que je
 retourne voir mon screen, autant ceux de gtalk doivent mettre notifiés de manière
 visible.
 
 Pour ce faire, il va falloir mettre en place, côté serveur, un script qui envoie
 le message pour le récupérer côté client et l’afficher à l’écran. Travaillant
-sous [i3](http://i3wm.org/) cela à compliqué la tâche.
+sous [i3](https://i3wm.org/) cela à compliqué la tâche.
 
 ## Côté serveur
 
@@ -34,7 +34,7 @@ recevez un message privé.
 [paste:https://git.homecomputing.fr/my-dotfiles/raw/4823c4090b13bf380f1b99d80466253556febf62/irssi/scripts/notify.pl]
 
 *notify-send* est normalement fournit par le paquet
-[libnotify-bin](http://packages.debian.org/stable/libnotify-bin) est permet
+[libnotify-bin](https://packages.debian.org/stable/libnotify-bin) est permet
 d’afficher un message à l’écran. Ici nous allons le remplacer par un script qui
 envoie le message sur le port 8088 en local :
 
@@ -66,7 +66,7 @@ port en local, grâce à ces quelques lignes placées dans *~/.ssh/config* :
 Couplé à un client qui va écouter le port pour renvoyer le message au système de
 notification local :
 
-[paste:http://git.homecomputing.fr/my-dotfiles/raw/master/ssh/ssh-listener.py]
+[paste:https://git.homecomputing.fr/my-dotfiles/raw/master/ssh/ssh-listener.py]
 
 Si vous utilisez un gestionnaire de fenêtre tel que Gnome, vous pouvez vous
 arrêtez là, *notify-send* faisant le reste. Cependant si vous utilisez un
