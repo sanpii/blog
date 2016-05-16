@@ -1,5 +1,8 @@
 import re
-import urllib
+try:
+    from urllib.request import urlopen
+except ImportError:
+    from urllib2 import urlopen
 
 from pelican import signals
 
@@ -12,7 +15,7 @@ def replace_code_paste(generator):
     for article in generator.articles:
         for match in regex.findall(article._content):
             try:
-                code = urllib.urlopen(match[1]).read()
+                code = urlopen(match[1]).read()
             except:
                 code = open(match[1]).read()
 
