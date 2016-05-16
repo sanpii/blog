@@ -11,7 +11,7 @@ vhosts.
 Commencez par récupérer l’outils :
 
 ```
-git clone https://github.com/letsencrypt/letsencrypt
+git clone https://github.com/certbot/certbot.git letsencrypt
 cd letsencrypt
 ./letsencrypt-auto
 ```
