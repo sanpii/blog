@@ -38,3 +38,6 @@ EMAIL = 'sanpi@homecomputing.fr'
 FEED_RSS = 'all.rss.xml'
 TAG_FEED_RSS = 'feeds/tags/%s.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/categories/%s.rss.xml'
+
+PIWIK_URL = 's.homecomputing.fr'
+PIWIK_SITE_ID = 3
