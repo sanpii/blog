@@ -2,6 +2,9 @@ Title: Data independenza pour le voyage à Nantes
 Date: 2015-06-28 01:10
 Tags: open data
 
+Mise à jour : la [version
+2016](https://umap.openstreetmap.fr/fr/map/voyage-a-nantes-2016_96887).
+
 Comme chaque été, depuis maintenant 4 ans à lieu le [voyage à
 Nantes](https://fr.wikipedia.org/wiki/Le_Voyage_%C3%A0_Nantes). Il s’agit d’un
 parcours dans la ville ponctuée d’œuvres.
