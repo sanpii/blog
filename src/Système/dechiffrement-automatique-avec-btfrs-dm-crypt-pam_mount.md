@@ -1,6 +1,7 @@
 Title: Déchiffrement automatique avec btfrs, dm-crypt et pam_mount
 Date: 2015-08-03 20:03:07
 Tags: cryptographie
+Image: /images/header/luks.png
 
 Ce n’est pas la première fois que je chiffre mes disques durs, mais j’avais
 abandonné l’idée par flemme d’insérer une clé usb contenant le fichier clé à

@@ -1,5 +1,5 @@
-title: Créer un service tor pour vos sites
----
+Title: Créer un service tor pour vos sites
+Image: /images/header/tor.png
 
 Je vous ai dit à quel point j’étais content d’avoir joué à chiffrer mes disques
 durs avant d’en ressentir le besoin[^1] ? Du coup, en assistant au talk

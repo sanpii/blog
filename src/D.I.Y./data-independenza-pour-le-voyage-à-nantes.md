@@ -1,6 +1,7 @@
 Title: Data independenza pour le voyage à Nantes
 Date: 2015-06-28 01:10
 Tags: open data
+Image: /images/header/voyage-à-nantes.png
 
 Mise à jour : la [version
 2016](https://umap.openstreetmap.fr/fr/map/voyage-a-nantes-2016_96887).
