@@ -31,7 +31,7 @@ Le script suivant, à placer dans le répertoire  *~/.irssi/script*, se contente
 d’appeler la commande *notify-send* lorsqu’un message est mis en avant ou que vous
 recevez un message privé.
 
-[paste:https://git.homecomputing.fr/my-dotfiles/raw/4823c4090b13bf380f1b99d80466253556febf62/irssi/scripts/notify.pl]
+[paste:https://raw.githubusercontent.com/sanpii/my-dotfiles/4823c4090b13bf380f1b99d80466253556febf62/irssi/scripts/notify.pl]
 
 *notify-send* est normalement fournit par le paquet
 [libnotify-bin](https://packages.debian.org/stable/libnotify-bin) est permet
@@ -66,7 +66,7 @@ port en local, grâce à ces quelques lignes placées dans *~/.ssh/config* :
 Couplé à un client qui va écouter le port pour renvoyer le message au système de
 notification local :
 
-[paste:https://git.homecomputing.fr/my-dotfiles/raw/master/ssh/ssh-listener.py]
+[paste:https://raw.githubusercontent.com/sanpii/my-dotfiles/master/ssh/ssh-listener.py]
 
 Si vous utilisez un gestionnaire de fenêtre tel que Gnome, vous pouvez vous
 arrêtez là, *notify-send* faisant le reste. Cependant si vous utilisez un
@@ -77,16 +77,16 @@ il ne fait pas le travail que l’on souhaite, nous allons le remplacer par
 [statnot](https://github.com/halhen/statnot), plus configurable, dans notre
 fichier *~/.xinitrc* :
 
-[paste:https://git.homecomputing.fr/my-dotfiles/raw/93d38771be838cab1fcd18cf374f2949d1080ad5/xinitrc]
+[paste:https://raw.githubusercontent.com/sanpii/my-dotfiles/93d38771be838cab1fcd18cf374f2949d1080ad5/xinitrc]
 
 Il nous reste plus qu’à configurer statnot correctement, pour i3 j’utilise
 [dzen2](https://github.com/robm/dzen) :
 
-[paste:https://git.homecomputing.fr/my-dotfiles/raw/93d38771be838cab1fcd18cf374f2949d1080ad5/statnot/config.py]
+[paste:https://raw.githubusercontent.com/sanpii/my-dotfiles/93d38771be838cab1fcd18cf374f2949d1080ad5/statnot/config.py]
 
 Et voilà le résultat :
 
 ![Irssi notification over SSH](|filename|/images/irssi-notification.png)
 
 Vous pouvez retrouver l’ensemble des mes fichiers de configuration
-[ici](https://git.homecomputing.fr/my-dotfiles/).
+[ici](https://github.com/sanpii/my-dotfiles).

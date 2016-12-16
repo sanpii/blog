@@ -59,7 +59,7 @@ une configuration TLS convenable  :
 Pour finir le script à placer en crontab pour mettre à jour l’ensemble de vos
 certificats :
 
-[paste:https://git.homecomputing.fr/deploy/raw/master/src/ssl]
+[paste:https://raw.githubusercontent.com/sanpii/deploy/master/src/ssl]
 
 Un peu de bash velu, le plus compliqué étant de retrouver le nom de domaine
 racine pour renseigner l’email.
