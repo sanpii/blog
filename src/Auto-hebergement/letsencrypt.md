@@ -1,5 +1,6 @@
 title: Mémo sur la génération d’un certificat TLS avec let’s encrypt
 image: /images/header/letsencrypt.png
+date: 2015-12-02 17:17:43
 
 Ayant participé à la bêta privée de [let’s encrypt](https://letsencrypt.org/),
 j’ai pu jouer un peu avec, en particulier pour automatiser la génération de

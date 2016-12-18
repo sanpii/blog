@@ -1,4 +1,5 @@
 Title: Passer à openrc sous Archlinux
+date: 2015-11-08 21:06:34
 
 Depuis quelque mois, j’ai migré mes PC de bureaux de Debian Sid à Archlinux,
 pour essayer autre chose (je m’ennuyai Sid marche trop bien).
