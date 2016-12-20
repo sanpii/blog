@@ -27,8 +27,8 @@ PLUGINS = [
 LINKS =  ()
 
 SOCIAL = (
-    ('comment-alt', 'https://framasphere.org/people/3a8a1f5092e201339dab2a0000053625'),
-    ('beaker', 'https://github.com/sanpii'),
+    ('comment', 'https://framasphere.org/people/3a8a1f5092e201339dab2a0000053625'),
+    ('flask', 'https://github.com/sanpii'),
 )
 
 EMAIL = 'sanpi@homecomputing.fr'
