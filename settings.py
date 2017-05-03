@@ -27,7 +27,7 @@ PLUGINS = [
 LINKS =  ()
 
 SOCIAL = (
-    ('comment', 'https://framasphere.org/people/3a8a1f5092e201339dab2a0000053625'),
+    ('comment', 'https://status.homecomputing.fr/sanpi/'),
     ('flask', 'https://github.com/sanpii'),
     ('euro', 'https://liberapay.com/sanpi/'),
     ('bitcoin', 'bitcoin:15WyuHEMqtugjPLsJoXiBiAL7jtLmwLsJH'),
