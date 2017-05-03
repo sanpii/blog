@@ -30,6 +30,7 @@ SOCIAL = (
     ('comment', 'https://framasphere.org/people/3a8a1f5092e201339dab2a0000053625'),
     ('flask', 'https://github.com/sanpii'),
     ('euro', 'https://liberapay.com/sanpi/'),
+    ('bitcoin', 'bitcoin:15WyuHEMqtugjPLsJoXiBiAL7jtLmwLsJH'),
 )
 
 EMAIL = 'sanpi@homecomputing.fr'
