@@ -31,9 +31,8 @@ SOCIAL = (
     ('flask', 'https://github.com/sanpii'),
     ('euro', 'https://liberapay.com/sanpi/'),
     ('bitcoin', 'bitcoin:15WyuHEMqtugjPLsJoXiBiAL7jtLmwLsJH'),
+    ('envelope', 'mailto:sanpi+blog@homecomputing.fr'),
 )
-
-EMAIL = 'sanpi@homecomputing.fr'
 
 # Feed
 FEED_DOMAIN = 'https://sanpi.homecomputing.fr'
