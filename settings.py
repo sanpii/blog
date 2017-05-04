@@ -23,9 +23,9 @@ PLUGINS = [
     'code-paste',
 ]
 
-# Social widget
-LINKS =  ()
+LICENSE = 'Blog dans le domaine public vivant <a href="https://creativecommons.org/publicdomain/zero/1.0/">cc0</a>.'
 
+# Social widget
 SOCIAL = (
     ('comment', 'https://status.homecomputing.fr/sanpi/'),
     ('flask', 'https://github.com/sanpii'),
