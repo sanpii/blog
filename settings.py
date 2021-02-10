@@ -27,7 +27,6 @@ LICENSE = 'Blog dans le domaine public vivant <a href="https://creativecommons.o
 
 # Social widget
 SOCIAL = (
-    ('comment', 'https://status.homecomputing.fr/sanpi/'),
     ('flask', 'https://github.com/sanpii'),
     ('euro', 'https://liberapay.com/sanpi/'),
     ('bitcoin', 'bitcoin:15WyuHEMqtugjPLsJoXiBiAL7jtLmwLsJH'),
